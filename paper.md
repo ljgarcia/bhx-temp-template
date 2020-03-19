@@ -115,4 +115,3 @@ Please always remember to acknowledge the BioHackathon, CodeFest, Sprint, VoCamp
 
 # References
 
-Please create your paper.bib
