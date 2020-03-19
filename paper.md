@@ -26,11 +26,11 @@ affiliations:
    index: 1
  - name: ZB MED Information centre for life sciences, Gleueler Str. 60, 50931 Cologne, Germany
    index: 2
- - name: BASF
+ - name: BASF, Carl-Bosch-Strasse 38, 67056 Ludwigshafen am Rhein, Germany
    index: 3
- - name: The Bird
+ - name: University of Tennessee Health Science Center, Memphis, TN, US
    index: 4
- - name: Database Center for Life Science, Joint Support-Center for Data Science Research, Research Organization of Information and Systems, Yata 1111, Mishima, Shizuoka, Japan
+ - name: Database Center for Life Science. 178-4-4 Wakashiba, Kashiwa-shi, Chiba 277-0871, Japan
    index: 5
 date: 01 January 2020
 bibliography: paper.bib
