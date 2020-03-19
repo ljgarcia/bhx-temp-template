@@ -11,7 +11,7 @@ tags:
 authors:
   - name: Leyla Garcia
     orcid: 0000-0003-3986-0510
-    affiliation: "1", "2"
+    affiliation: "1, 2"
   - name: Alexander Garcia
     orcid: 0000-0003-1238-2539
     affiliation: 1,3
