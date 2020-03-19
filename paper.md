@@ -40,9 +40,9 @@ bibliography: paper.bib
 
 BioHackrXiv is a preprint to report on works done during BioHackathons, CodeFests, Sprints, VoCamps or similar events and related to Life Sciences and Health Care domains. Articles in BioHackrXiv commonly report on-going work as a couple of days of hacking are commonly not enough to get the things fully done. However, hackathon reports should still show work that people can build upon.
 
-One of the reasons behind BioHackathons and similar is sharing: ideas, data, designs, software, documentations and tutorials among others. We therefore kindly ask you to use CC-BY 4.0 license for your work [@CCBY4].  We also encourage you to share your code on GitHub, with an open license whenever possible.
+One of the reasons behind BioHackathons and similar is sharing: ideas, data, designs, software, documentations and tutorials among others. We therefore kindly ask you to use CC-BY 4.0 license for your work [@creative_commons_cc-by_nodate].  We also encourage you to share your code on GitHub, with an open license whenever possible.
 
-The people behind BioHackrXiv has participated on multiple BioHackathons organized by National Bioscience Database Center (NBDC) / Database Center for Life Science (DBCLS) in Japan and ELIXIR Europe. We decided to create BioHackrXiv preprint in order to make it easier for all to share and report on the work done at this sort of events. Of course, any hacking event is welcome to publish here, the more the merrier they say! And, if you want to go for a more formal peer-reviewed publication, you can always do so once your work is more mature [@Katayamaetal-2010].
+The people behind BioHackrXiv has participated on multiple BioHackathons organized by National Bioscience Database Center (NBDC) / Database Center for Life Science (DBCLS) in Japan and ELIXIR Europe. We decided to create BioHackrXiv preprint in order to make it easier for all to share and report on the work done at this sort of events. Of course, any hacking event is welcome to publish here, the more the merrier they say! And, if you want to go for a more formal peer-reviewed publication, you can always do so once your work is more mature [@katayama_dbcls_2010].
 
 Add to this section a couple of paragraphs introducing the work done where you (partially) develop the work you are reporting here. 
 
@@ -58,9 +58,9 @@ Please keep sections to a maximum of three levels.
 
 ## Where to find templates to submit to BioHackrXiv
 
-Our Word template is loosely inspired on the Lecture Notes in Computer Science (LNCS) templates [@LNCStemplate]. We have also looked at the Journal of Open Source Software submission process [@JOSS17]; in particular, we offer a PDF generation from Markdown based on theirs. 
+Our Word template is loosely inspired on the Lecture Notes in Computer Science (LNCS) templates [@lncs_springer_conference_nodate]. We have also looked at the Journal of Open Source Software submission process [@joss_submitting_2017]; in particular, we offer a PDF generation from Markdown based on theirs. 
 
-We provide a Word template and a Markdown template on our GitHub repository <TODO link to GitHub repo>. If you use the Word template, please export it or print it as PDF. If you use the Markdown template, you should use the generator tool [@generator]. Please have a look to the instructions page for BioHackrXiv [@prins2020].  
+We provide a Word template and a Markdown template on our GitHub repository <TODO link to GitHub repo>. If you use the Word template, please export it or print it as PDF. If you use the Markdown template, you should use the generator tool [@joss_whedon_nodate]. Please have a look to the instructions page for BioHackrXiv [@prins_submitting_2020].  
 
 
 ## Tables, figures and so on
