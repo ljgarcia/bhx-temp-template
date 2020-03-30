@@ -58,9 +58,7 @@ Please keep sections to a maximum of three levels.
 
 ## Where to find templates to submit to BioHackrXiv
 
-Our Word template is loosely inspired on the Lecture Notes in Computer Science (LNCS) templates [@lncs_springer_conference_nodate]. We have also looked at the Journal of Open Source Software submission process [@joss_submitting_2017]; in particular, we offer a PDF generation from Markdown based on theirs. 
-
-We provide a Word template and a Markdown template on our GitHub repository <TODO link to GitHub repo>. If you use the Word template, please export it or print it as PDF. If you use the Markdown template, you should use the generator tool [@joss_whedon_nodate]. Please have a look to the instructions page for BioHackrXiv [@prins_submitting_2020].  
+We use a Markdown template (actually, this Markdown file corresponds to our template) plus a PDF generator tool [@joss_whedon_nodate]. Please have a look to the instructions page for BioHackrXiv [@prins_submitting_2020].  
 
 
 ## Tables, figures and so on
@@ -74,8 +72,6 @@ Title	Article | title	| 18 point, bold |
 2nd-level heading	| Second level subtitle	| 12 point, bold | 
 3rd-level heading	| Third level subtitle | 10 point, bold |
 Normal |	Normal text |	10 point
-
-
 
 Remember to introduce figures (see Figure 1) before they appear on the document. 
 
