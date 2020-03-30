@@ -58,7 +58,7 @@ Please keep sections to a maximum of three levels.
 
 ## Where to find templates to submit to BioHackrXiv
 
-We use a Markdown template (actually, this Markdown file corresponds to our template) plus a PDF generator tool [@joss_whedon_nodate]. Please have a look to the instructions page for BioHackrXiv [@prins_submitting_2020].  
+We use a Markdown template (actually, this Markdown file corresponds to our template) plus a PDF generator tool together with the corresponding instructions [@prins_biohackrxiv_2020]. Please have a look, what you should submit to BioHackrXiv is the generated PDF, not the source Markdown.
 
 
 ## Tables, figures and so on
