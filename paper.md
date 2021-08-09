@@ -1,5 +1,6 @@
 ---
 title: 'BioHackrXiv contribution template'
+title-short: 'BHX template'
 tags:
   - BioHackathon
   - CodeFest
@@ -7,37 +8,49 @@ tags:
   - VoCamp
   - Template
   - Preprint
-  - replace with your own keyowrds
+  - Reproducibility science hack week
+  - Brazil
+  - Your keywords
 authors:
-  - name: Leyla Garcia
-    orcid: 0000-0003-3986-0510
-    affiliation: "1, 2"
+  - name: Leyla Jael Castro
+    orcid: 0000-0000-0000-XXX1
+    affiliation: "1,2"
   - name: Alexander Garcia
-    orcid: 0000-0003-1238-2539
+    orcid: 0000-0000-0000-XXX2
     affiliation: "1,3"
   - name: Pjotr Prins
-    orcid: 0000-0002-8021-9162
+    orcid: 0000-0000-0000-XXX3
     affiliation: "1,4"
   - name: Tazro Ohta
-    orcid: 0000-0003-3777-5945
+    orcid: 0000-0000-0000-XXX4
     affiliation: "1,5"    
   - name: Toshiaki Katayama
-    orcid: 0000-0003-2391-0384
+    orcid: 0000-0000-0000-XXX5
     affiliation: "1,5"
 affiliations:
  - name: BioHackrXiv, http://biohackrxiv.org
    index: 1
- - name: ZB MED Information centre for life sciences, Gleueler Str. 60, 50931 Cologne, Germany
+ - name: Institute 1, Address, City, Country
    index: 2
- - name: BASF, Carl-Bosch-Strasse 38, 67056 Ludwigshafen am Rhein, Germany
+ - name: Institute 2, Address, City, Country
    index: 3
- - name: University of Tennessee Health Science Center, Memphis, TN, US
+ - name: Institute 3, Address, City, Country
    index: 4
- - name: Database Center for Life Science. 178-4-4 Wakashiba, Kashiwa-shi, Chiba 277-0871, Japan
+ - name: Institute 4, Address, City, Country
    index: 5
-date: 01 January 2020
+date: 23 August 2021
 bibliography: paper.bib
+authors_short: Castro, LJ. et al. 
+group: Your group or topic name
+event: Brazil Reproducibility Network
+biohackathon_name: No Budget Science Hack Week
 ---
+
+#### corresponding author: ljgarcia\@zbmed.de
+
+# Abstract
+
+This file corresponds to a BioHackrXiv publication template for the Brazilian Reproducibility Network "No Budget Science Hack Week" Event. 
 
 # Introduction or Background
 
