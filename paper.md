@@ -45,6 +45,7 @@ group: Your group or topic name
 event: Brazil Reproducibility Network 2021 (virtual)
 biohackathon_name: No Budget Science Hack Week
 biohackathon_url: https://www.reprodutibilidade.bio.br/hack-week-2021
+biohackathon_location: Virtual
 ---
 
 #### corresponding author: corresponding\@something.dom
