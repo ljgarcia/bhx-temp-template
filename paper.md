@@ -42,8 +42,9 @@ date: 23 August 2021
 bibliography: paper.bib
 authors_short: Castro, LJ. et al. 
 group: Your group or topic name
-event: Brazil Reproducibility Network
+event: Brazil Reproducibility Network 2021 (virtual)
 biohackathon_name: No Budget Science Hack Week
+biohackathon_url: https://www.reprodutibilidade.bio.br/hack-week-2021
 ---
 
 #### corresponding author: corresponding\@something.dom
