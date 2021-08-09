@@ -52,7 +52,7 @@ biohackathon_location: Brazil Reproducibility Network (virtual)
 
 # Abstract
 
-This file corresponds to a BioHackrXiv publication template for the Brazilian Reproducibility Network "No Budget Science Hack Week" Event. 
+This file corresponds to a BioHackrXiv publication template for the Brazilian Reproducibility Network "No Budget Science Hack Week" Event. At the beginning of the file you can see the required metadata, remember that some data has been added as an example, you will have to modify as it fits. Your file must be named paper.md and your references file must be saved right next to the paper.md file and be named paper.bib. Please include URLs (e.g., web pages, GitHub pages, data repos) as part of the text but also as a proper reference (i.e., in your paper.bib file) so later mining references will be easier. If you are interested in making future text-mining processes easier, please include the paper.md and paper.bib as supplementary data (you will find the right place to add this information later in the document). Thanks for you interest in contributing with your submission to BioHackrXiv.
 
 # Introduction or Background
 
@@ -118,9 +118,13 @@ For citations of references, we prefer the use of parenthesis, last name and yea
 * Please add a list here
 * Make sure you let us know which of these correspond to Jupyter notebooks. Although not supported yet, we plan to add features for them
 * And remember, software and data need a license for them to be used by others, no license means no clear rules so nobody could legally use a non-licensed research object, whatever that object is
-* Jupyter notebook, name, link, license
-* Github repo, name, link, license
-* Data repo, name, link, license
+* Jupyter notebook. name, link, license
+* Github repo. name, link, license
+* Data repo. name, link, license
+
+# Paper data sources
+
+* Paper.md and paper.bib location: URL here
 
 # Acknowledgements
 
