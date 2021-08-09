@@ -46,7 +46,7 @@ event: Brazil Reproducibility Network
 biohackathon_name: No Budget Science Hack Week
 ---
 
-#### corresponding author: ljgarcia\@zbmed.de
+#### corresponding author: corresponding\@something.dom
 
 # Abstract
 
