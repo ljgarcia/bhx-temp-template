@@ -12,115 +12,70 @@ tags:
   - Brazil
   - Your keywords
 authors:
-  - name: Leyla Jael Castro
-    orcid: 0000-0000-0000-XXX1
-    affiliation: "1,2"
-  - name: Alexander Garcia
-    orcid: 0000-0000-0000-XXX2
-    affiliation: "1,3"
-  - name: Pjotr Prins
-    orcid: 0000-0000-0000-XXX3
-    affiliation: "1,4"
-  - name: Tazro Ohta
-    orcid: 0000-0000-0000-XXX4
-    affiliation: "1,5"    
-  - name: Toshiaki Katayama
-    orcid: 0000-0000-0000-XXX5
-    affiliation: "1,5"
+  - name: Núria Queralt-Rosinach
+    orcid: 0000-0003-0169-8159
+    affiliation: 1
+  - name: Paul Schofield
+    orcid: 0000-0002-5111-7263
+    affiliation: 2
+  - name: Robert Hoehndorf
+    orcid: 0000-0001-8149-5890
+    affiliation: 3
+  - name: Claus Weiland
+    orcid: 0000-0003-0351-6523
+    affiliation: 4   
+  - name: Erik Schultes
+    orcid: 0000-0001-8888-635X
+    affiliation: 5
+  - name: César Henrique Bernabé
+    orcid: 0000-0003-1795-5930
+    affiliation: 1
+  - name: Marco Roos
+    orcid: 0000-0002-8691-772X
+    affiliation: 1        
 affiliations:
- - name: BioHackrXiv, http://biohackrxiv.org
+ - name: Leiden University Medical Center, The Netherlands
    index: 1
- - name: Institute 1, Address, City, Country
+ - name: University of Cambridge. United Kingdom
    index: 2
- - name: Institute 2, Address, City, Country
+ - name: King Abdullah University of Science and Technology, Saudi Arabia
    index: 3
- - name: Institute 3, Address, City, Country
+ - name: Senckenberg Biodiversity and Climate Research Center, Germany
    index: 4
- - name: Institute 4, Address, City, Country
+ - name: GO FAIR Foundation
    index: 5
-date: 23 August 2021
+date: 11 August 2021
 bibliography: paper.bib
-authors_short: Castro, LJ. et al. 
-group: Your group or topic name
-event: Other
-biohackathon_name: No Budget Science Hack Week 2021
-biohackathon_url: https://www.reprodutibilidade.bio.br/hack-week-2021
-biohackathon_location: Brazil Reproducibility Network (virtual)
+authors_short: Queralt-Rosinach, N. et al. 
+group: Ontologies
+event: COVID-19 Virtual BioHackathon 2020
 ---
 
-#### corresponding author: corresponding\@something.dom
+#### corresponding author: n.queralt_rosinach\@lumc.nl
 
-# Abstract
+# Motivation
 
-This file corresponds to a BioHackrXiv publication template for the Brazilian Reproducibility Network "No Budget Science Hack Week" Event. At the beginning of the file you can see the required metadata, remember that some data has been added as an example, you will have to modify as it fits. Your file must be named paper.md and your references file must be saved right next to the paper.md file and be named paper.bib. Please include URLs (e.g., web pages, GitHub pages, data repos) as part of the text but also as a proper reference (i.e., in your paper.bib file) so later mining references will be easier. If you are interested in making future text-mining processes easier, please include the paper.md and paper.bib as supplementary data (you will find the right place to add this information later in the document). Thanks for you interest in contributing with your submission to BioHackrXiv.
+One year ago, the novel COVID-19 infectious disease emerged and spread, causing high mortality and morbidity rates worldwide. In the OBO Foundry, there are more than one hundred ontologies to share and analyse large-scale datasets for biological and biomedical sciences. However, this pandemic revealed that we lack tools for an efficient and timely exchange of this epidemiological data which is necessary to assess the impact of disease outbreaks, the efficacy of mitigating interventions and to provide a rapid response [@nature_editorial2021]. Recently, several new COVID-19 ontologies have developed such as the Infectious Disease Ontology (IDO) [@ido-covid-owl] extension or Ontology of Coronavirus Infectious Disease (CIDO) [@cido2020]. Hence, our research question was to determine if there was a good representation of epidemiological quantitative concepts in OBO ontologies. Our objectives were to identify missing COVID-19 epidemiological terms and implement axiom patterns for extensions to existing ontologies or to build a new, logically well-formed, and accurate ontology in OBO. In this study we present our findings and contributions for the bio-ontologies community. 
 
-# Introduction or Background
+# Method
 
-BioHackrXiv is a preprint to report on works done during BioHackathons, CodeFests, Sprints, VoCamps or similar events and related to Life Sciences and Health Care domains. Articles in BioHackrXiv commonly report on-going work as a couple of days of hacking are commonly not enough to get the things fully done. However, hackathon reports should still show work that people can build upon.
+This work was conceived and mainly developed during open community hackathons [COVID-19 Virtual BioHackathon 2020](https://github.com/virtual-biohackathons/covid-19-bh20/), [BioHackathon Europe 2020](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/30), [SWAT4HCLS Hackathon 2020](https://swat4hcls.wiki.opencura.com/wiki/Main_Page#Title:_Adding_logical_structure_to_the_COVID-19_epidemiology_ontology). Our approach was based on first, extracting a list of relevant epidemiological terms through manual curation of recent COVID-19 epidemiological studies published in peer-reviewed journals, medRxiv and public health surveillance websites, and mapping them to existing OBO ontologies. Curation was focused on quantitative data and indicators. Second, developing a minimal ontological representation of COVID-19 epidemiological quantitative information. And third, to refine and evaluate the model with domain expert input. 
 
-One of the reasons behind BioHackathons and similar is sharing: ideas, data, designs, software, documentations and tutorials among others. We therefore kindly ask you to use CC-BY 4.0 license for your work [@creative_commons_cc-by_nodate].  We also encourage you to share your code on GitHub, with an open license whenever possible.
+Our formal modeling followed a rationale already used in other studies: 1) determine the domain and scope of the ontology; 2) ontology reuse and addressing poor ontological coverage of COVID-19 epidemiology; and 3) development of a conceptual model [@sanchezjbi2011,@kouameasi2021]. We extracted core domain knowledge concepts from existing sources[@epibook1,@epibook2,@idehandbook2014]. We re-used ontological terms and models as much as possible using ontology search engines such as the [Ontology Lookup Service (OLS)](https://www.ebi.ac.uk/ols/index) and the [Open Biological and Biomedical Ontology (OBO) Foundry](http://www.obofoundry.org/). To build an interoperable biomedical ontology, we decided to build an OBO ontology and use the OWL 2, a DL-based formalism and semantic web standard for knowledge representation, to enable data sharing and formal reasoning. We used knowledge-engineering best practices following the [OBO principles](http://www.obofoundry.org/principles/fp-000-summary.html) and modularization guidelines [@rector2003] to achieve a logically well-formed model. Finally, we based our decisions on building a FAIR (findable, accessible, interoperable, reusable) [@wilkinson2016fair] resource for health data and research following recent recommendations published by international data standard organizations [@rdacovid2020,@ehden2020]. More information on the method, the list of sources used for curation and extracted terms, and the developed OWL ontology are open and publicly available for reproducibility and community re-use on https://github.com/NuriaQueralt/covid19-epidemiology-ontology.
 
-The people behind BioHackrXiv has participated on multiple BioHackathons organized by National Bioscience Database Center (NBDC) / Database Center for Life Science (DBCLS) in Japan and ELIXIR Europe. We decided to create BioHackrXiv preprint in order to make it easier for all to share and report on the work done at this sort of events. Of course, any hacking event is welcome to publish here, the more the merrier they say! And, if you want to go for a more formal peer-reviewed publication, you can always do so once your work is more mature [@katayama_dbcls_2010].
+# Results
 
-Add to this section a couple of paragraphs introducing the work done where you (partially) develop the work you are reporting here. 
+We provide a formal ontological model for COVID-19 epidemiology and monitoring (graphical and OWL representations are in our [GitHub repository](https://github.com/NuriaQueralt/covid19-epidemiology-ontology)). With the rise of new variants of the virus that may challenge vaccine efficacy, a compatible logical model for quantities that enables researchers to represent and share machine-readable patient monitoring and epidemiology surveillance data for rapid analysis, modeling and response is an urgent need. In this work we re-used the SIO design pattern for [measurements](https://github.com/MaastrichtU-IDS/semanticscience/wiki/DP-Measurements), a model already applied to patient health data for rare diseases in the [European Joint Programme on Rare Diseases (EJP RD)](https://www.ejprarediseases.org/), clinical research data in the Leiden University Medical Center (LUMC) [@rosinach_damalos_2020] and the measurements schema in the new GA4GH Phenopackets release [@ppv2_2021]. The taxonomic structure is extended from IDO, a core ontology for infectious diseases. For domain concepts we re-used General Formal Ontology (GFO) [@gfo2006] to formalize timelines concepts using the ‘chronoid’ and the GFO-based ‘mortality’ model approach [@santanajbs2012]. To link patient-population is an RDA COVID-19 recommendation on data sharing, thus we checked common data models such as [(OMOP)](https://www.ohdsi.org/data-standardization/the-common-data-model/) and re-used the relationship used in Phenopackets based on *composition* semantics.
 
-Our templates use styles adding some space after paragraphs rather than indentation.
+We filled the gap for epidemiological surveillance terms in OBO adding 100 new terms. From an initial set of 138 manually extracted terms, only 38 are covered by bio-ontologies, 21% (30 terms) IDO [@ido-owl] and 24% Statistical Methods Ontology (STATO) (33 terms) [@stato-owl] (although including fallbacks this percentage could increase to 50%) and the rest by epidemiological-related ontologies such as Apollo Structure Vocabulary (APOLLO_SV) [@apollo-owl] and Genomic Epidemiology Ontology (GenEpiO) [@genepio-owl]. We noticed that the Epidemiology Ontology (EPO) [@epo-owl] is not maintained since its publication and has been deprecated from OBO Foundry and IDO is working towards epidemiological enrichment [@ido-2021]. While interoperability within the OBO landscape is fostered by adopting the BFO backbone structure, the link with GFO can lead to incompatible temporal regions  due to logical inconsistency [@gfo-bfo-2013]. Another issue that may be improved is the current absence of axioms and definition patterns that relate epidemiology (i.e., observations of a population) to clinical ontologies (i.e., observations on an individual) and allow reasoning for discovery. The re-use of the Entity-Quality(EQ) model [@eq-mungall2011] or the adaptation of the Resources, events, agents (REA) model [@mabee2020] will be evaluated. In the future, we will evaluate our ontology with domain experts and logical competency questions [@almeidafois2014]. Moreover, we expect to use this model in FAIR-based projects such as Trusted World of Corona (TWOC) [@twoc2020] to publish epidemiological claims as nanopublications for trust [@groth-nanopubs-2010]. We aim at FAIR reasoning and analytics of person-level real world observations over epidemiological surveillance information [@sherimon2020]. Therefore, checking common data models such as Phenopackets or OHDSI standards was done to enable the development of applications to discover patterns with ontology-guided machine learning algorithms and translational research.
 
-## Subsection level 2
+# Conclusion
 
-Please keep sections to a maximum of three levels, even better if only two levels.
-
-### Subsection level 3
-
-Please keep sections to a maximum of three levels.
-
-## Where to find templates to submit to BioHackrXiv
-
-We use a Markdown template (actually, this Markdown file corresponds to our template) plus a PDF generator tool together with the corresponding instructions [@prins_biohackrxiv_2020]. Please have a look, what you should submit to BioHackrXiv is the generated PDF, not the source Markdown.
-
-
-## Tables, figures and so on
-
-Please remember to introduce tables (see Table 1) before they appear on the document. We recommend to center tables, formulas and figure but not the corresponding captions. Feel free to modify the table style as it better suits to your data.
-
-Heading level	| Description	| Font size and style |
----------- | ---------- | ---------- |
-Title	Article | title	| 18 point, bold |
-1st-level heading	| First level subtitle	| 14 point, bold |
-2nd-level heading	| Second level subtitle	| 12 point, bold | 
-3rd-level heading	| Third level subtitle | 10 point, bold |
-Normal |	Normal text |	10 point
-
-Remember to introduce figures (see Figure 1) before they appear on the document. 
-
-![BioHackrXiv](./biohackrxiv.png)
-
-Figure 1. A figure corresponding to the logo of our BioHackrXiv preprint.
-
-# Other main section on your manuscript level 1
-
-Feel free to use numbered lists or bullet points as you need.
-* Item 1
-* Item 2
-
-# Discussion and/or Conclusion
-
-We recommend to include some discussion or conclusion about your work. Feel free to modify the section title as it fits better to your manuscript.
-
-# Future work
-
-And maybe you want to add a sentence or two on how you plan to continue. Please keep reading to learn about citations and references.
-
-For citations of references, we prefer the use of parenthesis, last name and year. If you use a citation manager, Elsevier – Harvard or American Psychological Association (APA) will work. If you are referencing web pages, software or so, please do so in the same way. Whenever possible, add authors and year. We have included a couple of citations along this document for you to get the idea. Please remember to always add DOI whenever available, if not possible, please provide alternative URLs. You will end up with an alphabetical order list by authors’ last name.
+In the context of an infectious disease outbreak it is imperative to have these data as FAIR as possible to facilitate rapid analysis and support timely evidence-based decision making and trust. To enable the community to provide machine-readable epidemiological quantitative data and make it easier to share, we contributed with the development of an ontological representation, which was built based on ontology engineering best-practices such as reuse and ontology formalization through upper-level ontologies (i.e., GFO, SIO).
 
 # Jupyter notebooks, GitHub repositories and data repositories
 
-* Please add a list here
-* Make sure you let us know which of these correspond to Jupyter notebooks. Although not supported yet, we plan to add features for them
-* And remember, software and data need a license for them to be used by others, no license means no clear rules so nobody could legally use a non-licensed research object, whatever that object is
-* Jupyter notebook. name, link, license
-* Github repo. name, link, license
-* Data repo. name, link, license
+* Github repo. covid-19-epidemiology-ontology, https://github.com/NuriaQueralt/covid19-epidemiology-ontology, CC0
 
 # Paper data sources
 
@@ -128,8 +83,7 @@ For citations of references, we prefer the use of parenthesis, last name and yea
 
 # Acknowledgements
 
-Please always remember to acknowledge the BioHackathon, CodeFest, Sprint, VoCamp where you participated and (partially) developed the work you are reporting here. Remember to also include the link to the hacking event here.
-
+We would like to specially thank Birgit Meldal for her input and ideas. This initiative has received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement N°825575 (the European Joint Programme Rare Diseases), and the Trusted World of Corona (TWOC; LSH Health Holland).
 
 # References
 
