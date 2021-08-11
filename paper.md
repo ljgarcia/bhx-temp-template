@@ -74,7 +74,8 @@ In the context of an infectious disease outbreak it is imperative to have these 
 
 # Paper data sources
 
-* Paper.md and paper.bib location: https://github.com/NuriaQueralt/covid19-epidemiology-ontology
+* Paper.md and paper.bib location: 
+https://github.com/NuriaQueralt/covid19-epidemiology-ontology
 
 # Acknowledgements
 
